@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("img/35dokter-kesehatan.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    margin-bottom: 70px;
+}
+
+ul a {
+    font-size: 30px;
+    color: white;
+}
+
+ul a:hover {
+    text-decoration: none;
+    color: #8e9eab;
+    opacity: 2;
+}
+
+small {
+    font-size: 19px;
+    color: white;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+.btn-info {
+    border: 2px solid #2ebf91;
+    width: 335px;
+    margin-top: 20px;
+    font-size: 20px;
+    background: transparent;
+    border-radius: 90px;
+}
+
+.btn-info:hover {
+    background: #2ebf91;
+    border: 2px solid #2ebf91;
+}
+
+img {
+    height: 477px;
+    width: 300px;
+}
+
+.input>div {
+    position: relative;
+    height: 75px;
+}
+
+.input>div>h5 {
+    position: absolute;
+    top: -2.2%;
+    left: 3%;
+    font-size: 1.4rem;
+    color: #999;
+    transition: .5s;
+}
+
+.input.focus div h5 {
+    left: -2px;
+    top: -33px;
+    font-size: 15px;
+    color: #2ebf91;
+}
+
+.input.focus .i i {
+    color: #2ebf91;
+    font-size: 15px;
+}
+
+.i {
+    margin-left: -30px;
+    top: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.input>div>input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60%;
+    border: none;
+    outline: none;
+    background: none;
+    top: -11px;
+    padding-left: 9px;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 254, 254);
+}
+
+.input.span {
+    margin-bottom: 4px;
+}
